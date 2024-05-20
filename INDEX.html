@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    
+    <link rel="preload" href="CSS/Normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/Normalize.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="CSS/color.css">
+
+    <link rel="manifest" href="manifest.json">
+    <title>ToDo</title>
+</head>
+<body>
+    <section class="TITULO">
+        <h1>Mis pendientes</h1>
+        <p id="fecha"></p>
+    </section>
+    
+    <main class="CUERPO">
+        <section class="ESCRIBIR">
+            <p><input type="text" name="nombre" placeholder="Escribe aqui" maxlength="50"id="nuevaTarea" class="ESC"/></p> 
+            <button onclick="agregar()">+</button>
+        </section>
+
+        <section class="PORHACER">
+            <h2>Por hacer</h2>
+            <div class="CONT_PORHACER">
+            
+            </div>
+        </section>
+
+        <section class="TERMINADO">
+            <h2>Terminado</h2>
+            <div class="CONT_Terminado">
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<script type="text/javascript" src="funciones.js"></script>
+
+<script type="text/javascript">
+    //evento del navegador
+    window.addEventListener('load',iniciar);
+</script>

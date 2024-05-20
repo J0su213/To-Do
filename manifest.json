@@ -1,0 +1,23 @@
+{
+    "name": "TO DO LIST",
+    "short_name": "TDL",
+    "start_url": "/",
+    "displpay:": "standa|",
+    "background_color": "#ffffff",
+    "lang":"es",
+    "scope" :"/",
+    "desciption" : "Aplicacion para hacer actividades",
+    "theme_color": "#ffffff",
+    "icons":[
+        {
+            "scr":"imagenes/cherry.png",
+            "sizes":"256x256",
+            "type":"image/png"
+        },
+        {
+            "scr":"imagenes/cherry1.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}

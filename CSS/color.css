@@ -1,0 +1,150 @@
+:root{
+ 
+    --color1:#272B34;
+    --color2:#2479A9;
+    --color3:#3E4553;
+    --color4:#313642;
+    --color5: #FFFFFF;
+    --color6:#6D778E;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    width: 400px;
+	font-size: 100%;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+
+	background-repeat:repeat-y;
+    background-image: linear-gradient(to top,var(--color3) 0%,var(--color3)100%);
+}
+
+.TITULO{
+    
+        width: 100%; 
+        background-color: var(--color4); 
+        padding: 8px 225px 8px 20px; 
+        margin: 0px;
+        box-sizing: border-box; 
+        text-align: left; 
+    
+    
+}
+
+.TITULO h1{
+    
+    color: var(--color5);
+    font-size: x-large;
+    margin-bottom: 0px;
+
+}
+.TITULO p{
+    
+    color:var(--color6);
+    margin-bottom: 5px;
+
+}
+
+.ESCRIBIR {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top:  30px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+.ESCRIBIR input[type="text"] {
+    border-radius: 20px; 
+    background-color: var(--color6); 
+    padding: 10px; 
+    width: 300px; 
+    height: 20px; 
+    border: none; 
+    border-color: var(--color6);
+    margin-right: 10px;
+}
+.ESCRIBIR input[type="text"]::placeholder {
+    color: var(--color5); 
+    font-size: medium;
+}
+
+.ESCRIBIR button {
+    font-weight: bold;
+    border-radius: 60px; 
+    background-color:var(--color2); 
+    color:var(--color5);
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.PORHACER h2{
+    color: var(--color5);
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CONT_PORHACER{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-left: 15px;
+}
+
+.CONT_PORHACER label {
+    background-color:var(--color6); 
+    color:var(--color5); 
+    width: 320px;
+    height: 12px; 
+    padding:19px; 
+    display: inline-block; 
+    border-radius: 50px; 
+    margin-top: 10px;
+  }
+
+  .CONT_PORHACER input[type="checkbox"] {
+    margin-right: 10px; 
+  }
+
+.TERMINADO h2{
+    color: var(--color5);
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CONT_Terminado{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-left: 15px;
+}
+
+.TERMINADO label {
+    background-color:var(--color6); 
+    color:var(--color4); 
+    text-decoration: line-through;
+    width: 320px;
+    height: 12px;
+    padding:19px; 
+    display: inline-block; 
+    border-radius: 50px; 
+    margin-top: 10px;
+  }
+
+  .CONT_Terminado input[type="checkbox"] {
+    margin-right: 10px; 
+}
