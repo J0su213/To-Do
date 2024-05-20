@@ -39,10 +39,7 @@ if(localStorage.getItem('tareas')){
         jsonTarea));
 }
 
-function iniciar(){
-    let fecha=new Date();
-    let mesNumero =fecha.getMonth();
-    let mes ="";
+
     
     switch(mesNumero){
     case 0:
@@ -86,7 +83,7 @@ function iniciar(){
     document.getElementById('fecha').innerHTML=fecha.getDate()+" de "+mes;
 
 }
-}
+
 
 function loadTareas() {
 
